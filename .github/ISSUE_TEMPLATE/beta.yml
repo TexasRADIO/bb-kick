@@ -1,0 +1,29 @@
+name: BB-KICK Beta Program
+description: Register interest and tell Big Beat Studio what you would like to test.
+title: "Beta registration"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for joining the BB-KICK Beta Program. The first build is in development. This issue is public. Your GitHub handle is enough. Please leave out personal contact details, device serial numbers and sample files.
+  - type: dropdown
+    id: interests
+    attributes:
+      label: What would you like to test?
+      multiple: true
+      options:
+        - Rhythm and live performance
+        - Drum archive browsing and loading
+        - MIDI and control surfaces
+        - Audio, effects and timing
+        - Build and development tools
+        - Accessibility and usability
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What would you try first?
+      description: Tell us about a workflow, instrument or test case you care about.
+    validations:
+      required: true

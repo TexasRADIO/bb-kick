@@ -5,7 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for joining the BB-KICK Beta Program. The first build is in development. This issue is public. Your GitHub handle is enough. Please leave out personal contact details, device serial numbers and sample files.
+        Register your interest in testing BB-KICK, the independent firmware project from Big Beat Studio. The first build is in development.
+
+        Your registration is a public GitHub issue. Your GitHub handle is enough; please leave out personal contact details and sample files.
   - type: dropdown
     id: interests
     attributes:

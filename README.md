@@ -1,17 +1,27 @@
 # BB-KICK
 
-**Big Beat Studio is developing BB-KICK, independent firmware for the Behringer KICK. Registration for the BB-KICK Beta Program is open.**
+![BB-KICK by Big Beat Studio — independent firmware project, beta registration open](assets/bb-kick-banner.svg)
 
-BB-KICK brings the BB1 rhythm engine to the KICK. The first build is centred on two drum machines, Dillo bass, tape echo and spring reverb. We’re building an offline library for the full *Drum Machines Have No Soul* drum-machine archive, including every recording and variation.
+**Our goal: every commercially released drum machine in one instrument. That instrument is Big Beat Studio.**
 
-## Join the BB-KICK Beta Program
+We’re developing **BB-KICK**, independent firmware for the Behringer KICK. We want musicians to be able to find a machine, explore its sounds and variations, and build a rhythm with it on the unit itself, offline.
 
-[Register for the beta](https://github.com/TexasRADIO/bb-kick/issues/new?template=beta.yml) and tell us what you’d like to test. Follow the project here for build availability, test instructions and known issues. Registration is open now. The first BB-KICK build is still in development.
+**[Register for the BB-KICK Beta Program](https://github.com/TexasRADIO/bb-kick/issues/new?template=beta.yml)** · [Try the BB1 rhythm engine in your browser](https://thebigbeat.app/fm1/emulator/)
 
-## Where we are
+## The drum machine library
 
-The standalone BB1 engine and adapter are under review. The development branch has recorded host and emulated ARM results that match the BB1 reference across 539 rhythm sections. We’re moving from engine validation to the desktop host, audio rate conversion and offline library integration. KICK hardware validation is ahead of us.
+Our starting point is the complete *Drum Machines Have No Soul* archive. The library is designed to make every recording and variation in that archive available offline. The archive is the foundation for the broader goal of covering every commercially released drum machine. Sample distribution will depend on the rights for each collection.
 
-You can try the rhythm engine and hear its instruments in the existing [BB1 browser player](https://thebigbeat.app/fm1/emulator/). The player and the [BB1 2.1.1 firmware release](https://github.com/TexasRADIO/bb1-firmware/releases/tag/v2.1.1) are for the M-VAVE FM-1.
+## The first build
 
-BB-KICK is a Big Beat Studio project developed independently of Behringer and Music Tribe. The published platform source is available from [Music Tribe Open Source](https://github.com/MusicTribeOpenSource/0700-AAM).
+We’re bringing the existing BB1 rhythm engine to KICK. The first build is centred on two playable drum machines, Dillo bass, tape echo and spring reverb. That’s the starting performance setup; the library is designed to grow independently of how many machines play at once.
+
+Development checks matched the BB1 reference across 539 rhythm sections on a desktop host and in ARM emulation. The desktop host, audio integration and offline library are in development. KICK hardware validation is still ahead. The browser player demonstrates the existing M-VAVE FM-1 version of BB1. The first BB-KICK build is not yet available.
+
+## BB-KICK Beta Program
+
+**Registration is open.** [Tell us what you’d like to test](https://github.com/TexasRADIO/bb-kick/issues/new?template=beta.yml), whether that’s live pattern editing, finding and loading drum sounds, or checking timing and MIDI. Follow this repository for build availability, test instructions and known issues. Registration uses a public GitHub issue; your GitHub handle is enough.
+
+---
+
+BB-KICK is developed by Big Beat Studio independently of Behringer and Music Tribe. See [Music Tribe Open Source](https://github.com/MusicTribeOpenSource/0700-AAM) for the published KICK platform source.
